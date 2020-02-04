@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "run-script-os",
+    "test:win32": "echo 'Windows 32/64'",
+    "test:darwin:linux": "echo 'darwin linux'",
+    "test:default": "echo 'default'"
+  },
+  "devDependencies": {
+    "run-script-os": "1.0.7"
   }
 }
